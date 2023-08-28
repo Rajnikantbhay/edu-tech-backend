@@ -10,7 +10,7 @@ connectToDb()
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOptions = {
-    origin: ["http://deploy-mern-1whq.vercel.app"],
+    origin: ["http://edu-tech-app.onrender.com"],
     credentials: true // This is important to allow cookies to be sent
 };
 
