@@ -10,7 +10,7 @@ connectToDb()
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOptions = {
-    origin: ["http://edu-tech-app.onrender.com", "https://edu-tech-api.onrender.com"],
+    origin: ["https://edu-tech-app.onrender.com", "https://edu-tech-api.onrender.com"],
     credentials: true // This is important to allow cookies to be sent
 };
 
