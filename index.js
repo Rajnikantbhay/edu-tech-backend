@@ -10,7 +10,8 @@ connectToDb()
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOptions = {
-    origin: "*"// This is important to allow cookies to be sent
+    origin: "*",// This is important to allow cookies to be sent
+    credentials: true,
 };
 
 app.use(cors(corsOptions));
