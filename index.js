@@ -10,7 +10,7 @@ connectToDb()
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOptions = {
-    origin: ["http://localhost:5173", "http://localhost:5000"],
+    origin: ["http://deploy-mern-1whq.vercel.app"],
     credentials: true // This is important to allow cookies to be sent
 };
 
